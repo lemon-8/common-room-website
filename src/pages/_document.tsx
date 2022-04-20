@@ -5,7 +5,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 
 import customTheme from "lib/styles/customTheme";
 
-const APP_NAME = "nextarter-chakra";
+const APP_NAME = "CommonRoom";
 
 class MyDocument extends Document {
   static getInitialProps(ctx: DocumentContext) {
@@ -17,7 +17,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link
-            href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
             rel="stylesheet"
           />
 

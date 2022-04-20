@@ -8,6 +8,15 @@ import defaultSEOConfig from "../../next-seo.config";
 import Layout from "lib/layout";
 import customTheme from "lib/styles/customTheme";
 import "lib/styles/globals.css";
+import "@fontsource/outfit/100.css";
+import "@fontsource/outfit/200.css";
+import "@fontsource/outfit/300.css";
+import "@fontsource/outfit/400.css";
+import "@fontsource/outfit/500.css";
+import "@fontsource/outfit/600.css";
+import "@fontsource/outfit/700.css";
+import "@fontsource/outfit/800.css";
+import "@fontsource/outfit/900.css";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
