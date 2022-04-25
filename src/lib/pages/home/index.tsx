@@ -20,7 +20,7 @@ const Home = () => {
         Join the android beta today
       </Text>
       <Link
-        href="https://expo.dev/accounts/lemon8in/projects/common-room/builds/206e6320-dc0d-4167-9384-6bd61a67d635"
+        href="https://expo.dev/accounts/lemon8in/projects/common-room/builds/a50655d6-2289-4eab-87a9-e9eec249c7b8"
         passHref
       >
         <Button colorScheme="blue" width={["80%", "40%"]}>
