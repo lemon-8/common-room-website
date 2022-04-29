@@ -14,6 +14,9 @@ module.exports = withPWA({
     dest: "public",
     register: true,
   },
+  env: {
+    APK_URL: process.env.APK_URL,
+  },
   reactStrictMode: true,
   eslint: {
     dirs: ["src"],

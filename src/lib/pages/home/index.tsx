@@ -20,7 +20,7 @@ const Home = () => {
         Join the android beta today
       </Text>
       <Link
-        href="https://expo.dev/accounts/lemon8in/projects/common-room/builds/a50655d6-2289-4eab-87a9-e9eec249c7b8"
+        href={process.env.APK_URL || "https://expo.dev/@lemon8in/common-room"}
         passHref
       >
         <Button colorScheme="blue" width={["80%", "40%"]}>
